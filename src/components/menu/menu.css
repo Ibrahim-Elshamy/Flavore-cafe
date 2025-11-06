@@ -1,0 +1,65 @@
+.menu .menuTitle {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: #351311;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.menu .menuCard {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #35131122;
+  border-radius: 20px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.menu .menuCard:hover {
+  border: 1px solid #351311;
+}
+.menu .menuCard .menuImg img {
+  height: 200px;
+  transition: all 0.3s linear;
+  object-fit: contain;
+}
+.menu .menuCard:hover img {
+  transform: scale(1.05);
+}
+.menu .menuCard .content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.menu .menuCard .content h3 {
+  font-size: 22px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+/* ////////////////// swiper ///////////////// */
+.swiper {
+  width: 100%;
+  height: 470px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.swiper-pagination-bullet-active {
+  background: #351311 !important;
+}
+.swiper-slide {
+  height: 410px;
+  border: 1px solid #35131122;
+  border-radius: 20px;
+}

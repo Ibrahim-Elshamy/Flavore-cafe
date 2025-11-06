@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.heroSection {
+  margin-top: 90px;
+}
+.heroImg img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  filter: contrast(120%) brightness(100%) saturate(130%);
+  mix-blend-mode: multiply; 
+}
+.heroImg {
+  width: 40%;
+}
+.heroSection .content{
+  width: 40%;
+  font-family: "Oswald", sans-serif;
+  color: #351311;
+}
+
+.heroSection .content h2{
+  font-size: 40px;
+  /* margin-bottom: 35px; */
+}
+
+.heroSection .content .viewMenuBtn{
+  padding: 10px 50px;
+  border-radius: 25px;
+  border: 2px solid #351311;
+  background-color: #351311;
+  color: white;
+  box-shadow: 10px 12px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+
+.heroSection .content .viewMenuBtn:hover{
+  transform: scaleX(1.05);
+  transition: all 0.3s linear;
+  background-color: transparent;
+  color: #351311;
+}
+
+.heroSection .content ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+  margin-left: -2rem;
+  margin-top: 40px;
+}
+.heroSection .content ul li {
+  background-color: #f2fefe66;
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.heroSection .content ul li:hover{
+  transform: scale(1.09);
+  transition: all 0.3s linear;
+}

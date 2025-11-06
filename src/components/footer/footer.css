@@ -1,0 +1,31 @@
+.footer {
+  color: #d6d2c7;
+  padding: 50px 0 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+.footerContent{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footerText{
+  color: black;
+  position: absolute;
+  left: 35%;
+  display: flex;
+  align-items: center;
+
+}
+.cupIcon{
+  margin: 0 10px;
+}
+.footerImg img{
+  width: 500px;
+  height: 150px;
+  object-fit: fill;
+  filter: contrast(110%) brightness(125%) saturate(90%);
+  mix-blend-mode: multiply; 
+}

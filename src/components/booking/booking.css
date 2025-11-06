@@ -1,0 +1,61 @@
+.booking .content .info{
+  margin-left: 110px;
+}
+.booking .content .infoBox .icon{
+  margin-top: -10px;
+}
+.booking .content .infoBox h2{
+  font-size: 25px;
+  margin: 0;
+}
+/* //////////// */
+.booking .title{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: #351311;
+}
+
+.booking .form input,textarea{
+  outline: none;
+  border: none;
+  padding: 15px 17px;
+  font-size: 16px;
+  color: #111827;
+  border-radius: 7px;
+  border-bottom: 2px solid;
+  margin-bottom: 20px;
+  box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.2);
+}
+
+.booking .form label{
+  font-size: 18px;
+  margin: 10px 0;
+  color: #111827;
+}
+
+.booking .form .submitBtn{
+  width: max-content;
+  padding: 15px 60px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  background: #351311 ;
+  color: #fff;
+  border: 1.5px solid #351311;
+  align-self: start;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  margin: 20px 0;
+}
+
+.booking .form .submitBtn:hover{
+  background: transparent;
+  color: #351311;
+  
+}
+
+.booking .form .firstName, .secondName{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
