@@ -1,16 +1,31 @@
-# React + Vite
+# Flavore Café
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Flavore Café** is a modern and fully responsive coffee shop landing page built with **React + Vite**.  
+It offers an elegant design, smooth user experience, and showcases the café’s menu, booking section, and contact details — all wrapped in a stylish, minimal interface.
 
-Currently, two official plugins are available:
+The project demonstrates clean structure, component reusability, and modern front-end best practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Fast Performance** — Powered by **Vite** for lightning-fast load times.  
+- **Modern UI/UX** — Elegant layout with smooth animations and consistent design.   
+- **Reusable Components** — Modular and easy to maintain.  
+- **Interactive Sections** — Includes Menu, Booking, and Contact sections.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **Frontend:** React + Vite  
+- **Styling:** CSS3  
+- **Layout Framework:** React-Bootstrap  
+- **Icons:** React Icons
+- **Slider:** Swiper
+- **Forms:** React Hook Form
+- **Deployment:** Vercel  
+
+---
+
+## Live Demo: https://flavore-cafe.vercel.app/
