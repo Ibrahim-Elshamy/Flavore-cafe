@@ -4,24 +4,23 @@
   margin-top: 90px;
 }
 .heroImg img {
-  width: 100%;
-  height: 450px;
+  /* width: 100%; */
+  /* height: 450px; */
   object-fit: cover;
   filter: contrast(120%) brightness(100%) saturate(130%);
   mix-blend-mode: multiply; 
 }
-.heroImg {
-  width: 40%;
-}
+/* .heroImg {
+  width: 45%;
+} */
 .heroSection .content{
-  width: 40%;
+  /* width: 40%; */
   font-family: "Oswald", sans-serif;
   color: #351311;
 }
 
 .heroSection .content h2{
   font-size: 40px;
-  /* margin-bottom: 35px; */
 }
 
 .heroSection .content .viewMenuBtn{

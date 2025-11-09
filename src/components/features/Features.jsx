@@ -43,8 +43,7 @@ export default function Features() {
             <Col
               key={index}
               md={3}
-              sm={6}
-              xs={12}
+              xs={10}
               className="item text-center pt-4"
             >
               <img src={item.image} alt={item.title} />

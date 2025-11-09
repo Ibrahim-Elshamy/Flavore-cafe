@@ -13,7 +13,7 @@ function Slider({ data, renderItem }) {
   return (
     <div>
       <Swiper
-        slidesPerView={4}
+        slidesPerView={1}
         spaceBetween={50}
         freeMode={true}
         autoplay={{
@@ -24,6 +24,24 @@ function Slider({ data, renderItem }) {
         mousewheel={true}
         pagination={{
           clickable: true,
+        }}
+        breakpoints={{
+          0: {
+            slidesPerView: 1.5,
+            spaceBetween: 30,
+          },
+          375: {
+            slidesPerView: 1.7,
+            spaceBetween: 50,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
         }}
         modules={[FreeMode, Pagination, Autoplay, Mousewheel]}
         className="mySwiper"
